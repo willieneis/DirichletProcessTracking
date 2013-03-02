@@ -1,8 +1,7 @@
-function smc1_main_usbh()
-% main smc1 script for usbh (ants) data
+function smc_main_usbh()
+% main smc script for usbh (ants) data
 
-    addpath('~/proj/ddpTracking/src/misc/', ...
-            '~/proj/ddpTracking/src/viz/');
+    addpath('../misc/','../viz/');
 
     load('~/proj/ddpTracking/data/data_usbh_combdist0L_10bins_noresize_1.mat','data');
     data = rarefy_data(data, 10000);
@@ -12,4 +11,5 @@ function smc1_main_usbh()
 
     % Format: state = {assignments, clusterParams, clusterSizes}
     state = {[],{},zeros(size(data,1),0)};
-    state = smc1_infer(state,data,params,5,'~/proj/ddpTracking/results/ants/');
+    particles = repcell(state,1,5);
+    state = smc_infer(particles,data,params,5,'~/proj/ddpTracking/results/ants/pmcmc/');

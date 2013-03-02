@@ -1,7 +1,6 @@
-
 function log_niwdir_coefratio = my_log_niwdir_coefratio(obs, params)
 
-
+addpath('~/proj/ddpTracking/src/mcmc/');
 
 
 params_n = update_mvnmn_params(obs, params);

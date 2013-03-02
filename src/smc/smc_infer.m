@@ -1,25 +1,30 @@
-function state = smc1_infer(state,data,params,numsamples,dirstring)
-% inference for a 1-particle particle filter (sequential monte carlo)
+function particles = smc_infer(particles,data,params,numsamples,dirstring)
+% inference for sequential monte carlo with L particles 
     
-    addpath('~/proj/ddpTracking/src/viz/',...
-            '~/proj/ddpTracking/src/misc/');
+    addpath('../viz/','../misc/','../smc1/');
 
-    t_start = size(state{2},1)+1;
+    t_start = size(particles{1}{2},1)+1;
     t_end = max(data(:,end));
     for t = t_start:t_end
-        for s = 1:numsamples
-            % Sample from proposal
-            state = smc1_sample(state,data,params,t,s,numsamples);
-            display_progress();
-            periodic_draw_viz();
+        for pInd=1:length(particles)
+            state = particles{pInd};
+            for s = 1:numsamples
+                % Sample from proposal
+                state = smc1_sample(state,data,params,t,s,numsamples);
+                display_progress();
+                periodic_draw_viz();
+            end
+            state = clean_state(state);
+            particles{pInd} = state;
         end
-        state = clean_state(state);
+        particles = smc_resample(particles,t,data);
         periodic_save()
     end
 
     % Auxiliary functions    
     % -------------------
     function periodic_draw_viz()
+        %state = particles{1}; %%%% just to test it
         if true % mod(t-t_start+1,5)==0 || t==t_start || t==t_end
             clf
             viz_smc1_result(data(1:size(state{1},2),[1,2,end]),state,'fil','stddev');
