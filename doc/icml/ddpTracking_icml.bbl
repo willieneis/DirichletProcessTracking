@@ -1,0 +1,203 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alahi et~al.(2009)Alahi, Jacques, Boursier, and
+  Vandergheynst]{alahi2009sparsity}
+Alahi, A., Jacques, L., Boursier, Y., and Vandergheynst, P.
+\newblock Sparsity-driven people localization algorithm: Evaluation in crowded
+  scenes environments.
+\newblock In \emph{Performance Evaluation of Tracking and Surveillance
+  (PETS-Winter), 2009 Twelfth IEEE International Workshop on}, pp.\  1--8.
+  IEEE, 2009.
+
+\bibitem[Andrieu et~al.(2010)Andrieu, Doucet, and
+  Holenstein]{andrieu2010particle}
+Andrieu, Christophe, Doucet, Arnaud, and Holenstein, Roman.
+\newblock Particle markov chain monte carlo methods.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 72\penalty0 (3):\penalty0 269--342, 2010.
+
+\bibitem[Antoniak(1974)]{antoniak1974mixtures}
+Antoniak, Charles~E.
+\newblock Mixtures of dirichlet processes with applications to bayesian
+  nonparametric problems.
+\newblock \emph{The annals of statistics}, pp.\  1152--1174, 1974.
+
+\bibitem[Arsic et~al.(2009)Arsic, Lyutskanov, Rigoll, and
+  Kwolek]{arsic2009multi}
+Arsic, D., Lyutskanov, A., Rigoll, G., and Kwolek, B.
+\newblock Multi camera person tracking applying a graph-cuts based foreground
+  segmentation in a homography framework.
+\newblock In \emph{Performance Evaluation of Tracking and Surveillance
+  (PETS-Winter), 2009 Twelfth IEEE International Workshop on}, pp.\  1--8.
+  IEEE, 2009.
+
+\bibitem[Babenko et~al.(2011)Babenko, Yang, and Belongie]{babenko2011robust}
+Babenko, Boris, Yang, Ming-Hsuan, and Belongie, Serge.
+\newblock Robust object tracking with online multiple instance learning.
+\newblock \emph{Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 33\penalty0 (8):\penalty0 1619--1632, 2011.
+
+\bibitem[Barron et~al.(1994)Barron, Fleet, and
+  Beauchemin]{barron1994performance}
+Barron, John~L, Fleet, David~J, and Beauchemin, SS.
+\newblock Performance of optical flow techniques.
+\newblock \emph{International journal of computer vision}, 12\penalty0
+  (1):\penalty0 43--77, 1994.
+
+\bibitem[Berclaz et~al.(2009)Berclaz, Fleuret, and Fua]{berclaz2009multiple}
+Berclaz, J., Fleuret, F., and Fua, P.
+\newblock Multiple object tracking using flow linear programming.
+\newblock In \emph{Performance Evaluation of Tracking and Surveillance
+  (PETS-Winter), 2009 Twelfth IEEE International Workshop on}, pp.\  1--8.
+  IEEE, 2009.
+
+\bibitem[Bolme et~al.(2009)Bolme, Lui, Draper, and Beveridge]{bolme2009simple}
+Bolme, D.S., Lui, Y.M., Draper, BA, and Beveridge, JR.
+\newblock Simple real-time human detection using a single correlation filter.
+\newblock In \emph{Performance Evaluation of Tracking and Surveillance
+  (PETS-Winter), 2009 Twelfth IEEE International Workshop on}, pp.\  1--8.
+  IEEE, 2009.
+
+\bibitem[Breitenstein et~al.(2009{\natexlab{a}})Breitenstein, Reichlin, Leibe,
+  Koller-Meier, and Van~Gool]{breitenstein2009markovian}
+Breitenstein, M.D., Reichlin, F., Leibe, B., Koller-Meier, E., and Van~Gool, L.
+\newblock Markovian tracking-by-detection from a single, uncalibrated camera.
+\newblock \emph{Work}, 2009{\natexlab{a}}.
+
+\bibitem[Breitenstein et~al.(2009{\natexlab{b}})Breitenstein, Reichlin, Leibe,
+  Koller-Meier, and Van~Gool]{breitenstein2009robust}
+Breitenstein, Michael~D, Reichlin, Fabian, Leibe, Bastian, Koller-Meier,
+  Esther, and Van~Gool, Luc.
+\newblock Robust tracking-by-detection using a detector confidence particle
+  filter.
+\newblock In \emph{Computer Vision, 2009 IEEE 12th International Conference
+  on}, pp.\  1515--1522. IEEE, 2009{\natexlab{b}}.
+
+\bibitem[Caron et~al.(2007)Caron, Davy, and Doucet]{caron2007generalized}
+Caron, F., Davy, M., and Doucet, A.
+\newblock Generalized {P}olya urn for time-varying {D}irichlet process
+  mixtures.
+\newblock In \emph{23rd Conference on Uncertainty in Artificial Intelligence
+  (UAI'2007), Vancouver, Canada, July 2007}, 2007.
+
+\bibitem[Conte et~al.(2010)Conte, Foggia, Percannella, and
+  Vento]{conte2010performance}
+Conte, D., Foggia, P., Percannella, G., and Vento, M.
+\newblock Performance evaluation of a people tracking system on pets2009
+  database.
+\newblock In \emph{Advanced Video and Signal Based Surveillance (AVSS), 2010
+  Seventh IEEE International Conference on}, pp.\  119--126. IEEE, 2010.
+
+\bibitem[Doermann \& Mihalcik(2000)Doermann and Mihalcik]{doermann_2000}
+Doermann, D. and Mihalcik, D.
+\newblock Tools and techniques for video performance evaluation.
+\newblock In \emph{Pattern Recognition, 2000. Proceedings. 15th International
+  Conference on}, volume~4, pp.\  167--170. IEEE, 2000.
+
+\bibitem[Douc \& Capp{\'e}(2005)Douc and Capp{\'e}]{douc2005comparison}
+Douc, Randal and Capp{\'e}, Olivier.
+\newblock Comparison of resampling schemes for particle filtering.
+\newblock In \emph{Image and Signal Processing and Analysis, 2005. ISPA 2005.
+  Proceedings of the 4th International Symposium on}, pp.\  64--69. IEEE, 2005.
+
+\bibitem[Ellis \& Ferryman(2010)Ellis and Ferryman]{ellis_2010}
+Ellis, A. and Ferryman, J.
+\newblock Pets2010 and pets2009 evaluation of results using individual ground
+  truthed single views.
+\newblock In \emph{Advanced Video and Signal Based Surveillance (AVSS), 2010
+  Seventh IEEE International Conference on}, pp.\  135--142. IEEE, 2010.
+
+\bibitem[Emonet et~al.(2011)Emonet, Varadarajan, and
+  Odobez]{emonet2011extracting}
+Emonet, R{\'e}mi, Varadarajan, Jagannadan, and Odobez, J-M.
+\newblock Extracting and locating temporal motifs in video scenes using a
+  hierarchical non parametric bayesian model.
+\newblock In \emph{Computer Vision and Pattern Recognition (CVPR), 2011 IEEE
+  Conference on}, pp.\  3233--3240. IEEE, 2011.
+
+\bibitem[Fragkiadaki \& Shi(2011)Fragkiadaki and Shi]{fragkiadaki2011detection}
+Fragkiadaki, Katerina and Shi, Jianbo.
+\newblock Detection free tracking: Exploiting motion and topology for
+  segmenting and tracking under entanglement.
+\newblock In \emph{Computer Vision and Pattern Recognition (CVPR), 2011 IEEE
+  Conference on}, pp.\  2073--2080. IEEE, 2011.
+
+\bibitem[Gasthaus(2008)]{gasthaus_thesis}
+Gasthaus, Jan.
+\newblock Spike sorting using time-varying {D}irichlet process mixture models,
+  2008.
+
+\bibitem[Ge \& Collins(2009)Ge and Collins]{ge2009evaluation}
+Ge, W. and Collins, R.T.
+\newblock Evaluation of sampling-based pedestrian detection for crowd counting.
+\newblock In \emph{Performance Evaluation of Tracking and Surveillance
+  (PETS-Winter), 2009 Twelfth IEEE International Workshop on}, pp.\  1--7.
+  IEEE, 2009.
+
+\bibitem[Gelman(2004)]{gelman2004bayesian}
+Gelman, A.
+\newblock \emph{Bayesian data analysis}.
+\newblock CRC press, 2004.
+
+\bibitem[Kasturi et~al.(2008)Kasturi, Goldgof, Soundararajan, Manohar,
+  Garofolo, Bowers, Boonstra, Korzhova, and Zhang]{kasturi_2008}
+Kasturi, R., Goldgof, D., Soundararajan, P., Manohar, V., Garofolo, J., Bowers,
+  R., Boonstra, M., Korzhova, V., and Zhang, J.
+\newblock Framework for performance evaluation of face, text, and vehicle
+  detection and tracking in video: Data, metrics, and protocol.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, pp.\  319--336, 2008.
+
+\bibitem[Meer(2003)]{meer2003kernel}
+Meer, Peter.
+\newblock Kernel-based object tracking.
+\newblock \emph{IEEE Transactions on pattern analysis and machine
+  intelligence}, 25\penalty0 (5), 2003.
+
+\bibitem[Turaga et~al.(2008)Turaga, Chellappa, Subrahmanian, and
+  Udrea]{turaga2008machine}
+Turaga, Pavan, Chellappa, Rama, Subrahmanian, Venkatramana~S, and Udrea,
+  Octavian.
+\newblock Machine recognition of human activities: A survey.
+\newblock \emph{Circuits and Systems for Video Technology, IEEE Transactions
+  on}, 18\penalty0 (11):\penalty0 1473--1488, 2008.
+
+\bibitem[Veeraraghavan et~al.(2006)Veeraraghavan, Schrater, and
+  Papanikolopoulos]{veeraraghavan2006robust}
+Veeraraghavan, Harini, Schrater, Paul, and Papanikolopoulos, Nikos.
+\newblock Robust target detection and tracking through integration of motion,
+  color, and geometry.
+\newblock \emph{Computer Vision and Image Understanding}, 103\penalty0
+  (2):\penalty0 121--138, 2006.
+
+\bibitem[Wang et~al.(2007)Wang, Ma, and Grimson]{wang2007unsupervised}
+Wang, Xiaogang, Ma, Xiaoxu, and Grimson, Eric.
+\newblock Unsupervised activity perception by hierarchical bayesian models.
+\newblock In \emph{Computer Vision and Pattern Recognition, 2007. CVPR'07. IEEE
+  Conference on}, pp.\  1--8. IEEE, 2007.
+
+\bibitem[Wu \& Nevatia(2007)Wu and Nevatia]{wu2007cluster}
+Wu, Bo and Nevatia, Ram.
+\newblock Cluster boosted tree classifier for multi-view, multi-pose object
+  detection.
+\newblock In \emph{Computer Vision, 2007. ICCV 2007. IEEE 11th International
+  Conference on}, pp.\  1--8. IEEE, 2007.
+
+\bibitem[Yang et~al.(2009)Yang, Vela, Shi, and Teizer]{yang2009probabilistic}
+Yang, J., Vela, PA, Shi, Z., and Teizer, J.
+\newblock Probabilistic multiple people tracking through complex situations.
+\newblock In \emph{11th IEEE International Workshop on Performance Evaluation
+  of Tracking and Surveillance}, 2009.
+
+\bibitem[Yilmaz et~al.(2006)Yilmaz, Javed, and Shah]{yilmaz2006object}
+Yilmaz, Alper, Javed, Omar, and Shah, Mubarak.
+\newblock Object tracking: A survey.
+\newblock \emph{Acm Computing Surveys (CSUR)}, 38\penalty0 (4):\penalty0 13,
+  2006.
+
+\end{thebibliography}
